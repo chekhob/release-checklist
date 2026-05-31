@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://release-checklist-swart.vercel.app/",
+        target: "https://release-checklist-pnum.vercel.app/",
         changeOrigin: true,
       },
     },
